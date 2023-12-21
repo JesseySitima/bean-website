@@ -42,7 +42,7 @@ app.use(express.urlencoded({ extended: false }));
 // Handle form submissions
 app.post('/store-data', (req, res) => {
   // Set CORS headers
-  res.setHeader('Access-Control-Allow-Origin', 'http://127.0.0.1:5500'); // Replace with your frontend URL
+  res.setHeader('Access-Control-Allow-Origin', 'https://luxury-cactus-f1d281.netlify.app/'); // Replace with your frontend URL
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
